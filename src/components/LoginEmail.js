@@ -6,7 +6,7 @@ import insta from "../assets/instagram_5_x2.svg"
 import x_twitter from "../assets/x_svg.svg"
 import pint from "../assets/pint_svg.svg"
 
-const SignUp = () => {
+const LoginEmail = () => {
 
     return (
         <div class="container">
@@ -18,12 +18,12 @@ const SignUp = () => {
                     <h1 class="welcome-to-cashntech">Welcome to CashnTech</h1>
                     <h3>Unlock Your Eligibility Now</h3>
                 </div>
-                <div className="email-box-1">
-                    <label className="email-label">Enter your email address</label>
-                    <input type="text" placeholder="john@example.com" className="email-input"></input>
+                <div className="login-email-box-1">
+                    <label className="login-email-label">Enter your email address</label>
+                    <input type="text" placeholder="john@example.com" className="login-email-input"></input>
                 </div>
-                <button class="button">
-                    <span class="get-verification-code">
+                <button class="login-button">
+                    <span class="login-get-verification-code">
                         Get Verification Code
                     </span>
                 </button>
@@ -74,4 +74,4 @@ const SignUp = () => {
     )
 };
 
-export default SignUp;
+export default LoginEmail;

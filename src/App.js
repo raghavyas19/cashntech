@@ -1,8 +1,12 @@
-import './App.css';
+import './App.css'
+import React from 'react';
+// import PhoneInputWithCountryCode from './components/PhoneInputWithCountryCode';
 // import Nav from './components/Nav'
-import SignUp from './components/SignUp';
-import Login from './components/Login'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LoginEmail from './components/LoginEmail'
+import LoginMob from './components/LoginMob'
+import EmailOTP from './components/EmailOTP'
+import MobileOTP from './components/MobileOTP'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
@@ -11,12 +15,16 @@ function App() {
         {/* < Nav /> */}
 
         <Routes>
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/loginemail" element={<LoginEmail />} />
+          <Route path="/loginmob" element={<LoginMob />} />
+          <Route path="/emailotp" element={<EmailOTP />} />
+          <Route path="/mobileotp" element={<MobileOTP />} />
         </Routes>
       </BrowserRouter>
+      
     </div>
-  );
+
+  )
 }
 
 export default App;

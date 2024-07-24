@@ -5,8 +5,8 @@ const Nav = () => {
     return(
         <div>
             <ul className="nav-ul">
-                <li><Link to="/login">Login</Link></li>
-                <li><Link to="/signup">SignUp</Link></li>
+                <li><Link to="/loginemail">Login using email</Link></li>
+                <li><Link to="/loginmob">Login using mobile number</Link></li>
             </ul>
         </div>
     );
