@@ -223,3 +223,45 @@
   padding: 20px;
   box-sizing: border-box;
 }
+
+.right .quote-img{
+  height: 30px;
+  width: 30px;
+  rotate: 180deg;
+  margin-top: 38%;
+  margin-left: 12%;
+}
+
+.right .right-text-1{
+  margin: 8px 30px 32px 70px;
+  /* display: inline-block; */
+  overflow-wrap: break-word;
+  font-family: 'Gilroy-SemiBold', 'Roboto Condensed';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.507;
+  color: #FE6062;
+}
+
+.right .right-text-1 .p-text{
+  margin: 12px 30px 32px 0px;
+  /* display: inline-block; */
+  overflow-wrap: break-word;
+  font-family: 'Gilroy-SemiBold', 'Roboto Condensed';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.507;
+  color: #FE6062;
+}
+
+.right .icon-socials{
+  display: flex;
+  margin-top: 180px;
+  margin-left: 120px;
+}
+
+.right .icon-socials .icon-img{
+  padding: 0px 16px 0px 16px;
+  width: 20px;
+  height: 20px;
+}

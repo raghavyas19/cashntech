@@ -1,5 +1,10 @@
-import React from "react";
-import logo from "./Logo2.png"
+import React from "react"
+import logo from "../assets/Logo2.png"
+import quote from "../assets/quote.svg"
+import fb from "../assets/fb_svg.svg"
+import insta from "../assets/instagram_5_x2.svg"
+import x_twitter from "../assets/x_svg.svg"
+import pint from "../assets/pint_svg.svg"
 
 const SignUp = () => {
 
@@ -7,7 +12,7 @@ const SignUp = () => {
         <div class="container">
             <div class="left">
                 <div >
-                    <img className="logo-img"src={logo} alt="cashntech logo"></img>
+                    <img className="logo-img" src={logo} alt="cashntech logo"></img>
                 </div>
                 <div className="form-1">
                     <h1 class="welcome-to-cashntech">Welcome to CashnTech</h1>
@@ -49,6 +54,21 @@ const SignUp = () => {
 
 
             <div class="right">
+                <div className="right-img-div">
+                    <img src={quote} className="quote-img" alt="" ></img>
+                </div>
+                <div class="right-text-1">
+                    An End-to-end Supply Chain Finance Solution
+                    <div className="p-text">
+                        CashnTech is a cloud-based working capital FinTech solution provider to obtain streamlined financial aid
+                    </div>
+                </div>
+                <div className="icon-socials">
+                    <img src={fb} className="icon-img" alt="facebook"></img>
+                    <img src={insta} className="icon-img" alt="instagram"></img>
+                    <img src={x_twitter} className="icon-img" alt="x.com"></img>
+                    <img src={pint} className="icon-img" alt="pinterest"></img>
+                </div>
             </div>
         </div>
     )
