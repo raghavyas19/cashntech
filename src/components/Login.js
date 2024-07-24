@@ -1,12 +1,12 @@
 import React from "react";
-
+import logo from "./Logo2.png"
 const SignUp = () => {
 
     return (
         <div class="container">
             <div class="left">
-                <div className="logo-img">
-                    <img src="Logo2.png" alt="cashntech logo"></img>
+                <div >
+                    <img className="logo-img"src={logo} alt="cashntech logo"></img>
                 </div>
                 <div className="form-1">
                     <h1 class="welcome-to-cashntech">Welcome to CashnTech</h1>
